@@ -19,10 +19,6 @@
             <key>BBLMLanguageSuffix</key>
             <string>.bui</string>
         </dict>
-        <dict>
-            <key>BBLMLanguageSuffix</key>
-            <string>.bas</string>
-        </dict>
     </array>
 
     <key>BBLMColorsSyntax</key>      <true/>
@@ -31,7 +27,7 @@
     <key>BBLMSupportsTextCompletion</key><true/>
 
     <key>BBLMCommentLineDefault</key>
-    <string>'</string>
+    <string>//</string>
 
     <key>BBLMKeywordList</key>
     <array>
