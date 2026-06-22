@@ -1,3 +1,13 @@
+# v0.6.1
+
+## Bug Fixes
+- fix: fix a signing/notarization issue
+- fix: make it so we sign any binaries we will be shipping
+- fix: remove another sample that is causing problems
+
+
+---
+
 # v0.6.0
 
 ## New Features
