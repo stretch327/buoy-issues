@@ -1,3 +1,19 @@
+# v0.14.0
+
+## New Features
+- feat: expand drag and drop to text controls and views
+
+## Bug Fixes
+- fix: Added a --generate-manifest option to help buipkg developers generate correctly formatted packages
+- fix: Fixed a few buipkg bugs that showed up on unit tests
+- fix: make it so the package loader looks in the link folder first and then moves to the runtime because on macOS and Linux, the files would be the same. Doing this makes packages ~32% smaller.
+- fix: added an option to buoy for specifying the install name when building a library
+- fix: When libraries are built with buoy, we no longer just overwrite the header that's there. The compiler is now smart enough to combine the declares into groups as necessary with #if pragmas.
+- fix: When building buoy libraries for a package there's now a new option named "--emit-declares"  which will also create a .bui file containing the declares for accessing each of the public methods that's needed for the packaging process.
+
+
+---
+
 # v0.13.1
 
 ## Bug Fixes
