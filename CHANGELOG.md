@@ -1,3 +1,15 @@
+# v0.15.0
+
+## New Features
+- Hidpi support for all platforms
+- MacOS hidpi
+
+## Bug Fixes
+- HTMLView dlls are no longer copied into every windows app
+
+
+---
+
 # v0.14.0
 
 ## New Features
